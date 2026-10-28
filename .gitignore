@@ -1,0 +1,25 @@
+
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Runtime logs
+data/*.log
+
+# Generated validation outputs
+data/output.csv
+data/reconciliation.csv
+
+# Generated large datasets and benchmark results
+data/large_incoming.csv
+data/large_reference.csv
+data/large_output.csv
+data/benchmark_metrics.csv
+
+# Reference refresh test input
+data/new_reference.csv
+
+# Archived reference data is generated locally
+data/reference_archive/
+
